@@ -6,20 +6,20 @@ const Projects = () => {
       title: "SaaS Landing",
       desc: "A modern landing page for a SaaS platform.",
       github: "https://github.com/SilesterGold9/saasy",
-      live: "https://saaslanding.com",
+      live: "https://clean-saas.netlify.app",
     },
     {
       title: "Portfolio",
       desc: "Cleanfolio with dark mode and acid green accent.",
       github: "https://github.com/SilesterGold9/cleanfolio",
-      live: "https://portfolio.com",
+      live: "https://cleanpfl.netlify.app",
     },
     {
       title: "Frontend Template",
       desc: "A starter template for React with Tailwind CSS.",
       github:
         "https://github.com/SilesterGold9/ecommerce-apphttps://github.com/SilesterGold9/react-tailwind-starter",
-      live: "https://ecommerceapp.com",
+      live: "https://silester-cleanplate.netlify.app",
     },
   ];
 
