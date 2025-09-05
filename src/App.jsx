@@ -1,24 +1,34 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
+
+// Pages
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
-import Pricing from "./pages/Pricing.jsx";
+import Projects from "./pages/Projects.jsx";
+import Skills from "./pages/Skills.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const App = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900">
+    <div className="min-h-screen flex flex-col bg-[#0f1117] text-[#f8f9fb] font-['JetBrains_Mono']">
+      {/* Navbar */}
       <Navbar />
 
+      {/* Main */}
       <main className="flex-1">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
 
-      <footer className="p-4 text-center text-sm text-slate-500">
-        © {new Date().getFullYear()} My Project. All rights reserved.
+      {/* Footer */}
+      <footer className="p-6 text-center text-sm text-gray-400 border-t border-gray-800">
+        © {new Date().getFullYear()} Cleanfolio. Built with ❤️ and JetBrains
+        Mono.
       </footer>
     </div>
   );
