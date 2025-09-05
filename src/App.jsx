@@ -27,8 +27,7 @@ const App = () => {
 
       {/* Footer */}
       <footer className="p-6 text-center text-sm text-gray-400 border-t border-gray-800">
-        © {new Date().getFullYear()} Cleanfolio. Built with ❤️ and JetBrains
-        Mono.
+        © {new Date().getFullYear()} Cleanfolio. Feito com ❤️ e JetBrains Mono.
       </footer>
     </div>
   );

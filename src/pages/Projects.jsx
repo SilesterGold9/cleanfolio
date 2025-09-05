@@ -3,27 +3,27 @@ import { Code, ExternalLink } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "SaaS Landing",
-      desc: "A modern landing page for a SaaS platform.",
+      title: "Landing SaaS",
+      desc: "Uma landing page moderna para uma plataforma SaaS.",
       github: "https://github.com/SilesterGold9/saasy",
       live: "https://clean-saas.netlify.app",
     },
     {
-      title: "Portfolio",
-      desc: "Cleanfolio with dark mode and acid green accent.",
+      title: "Portfólio",
+      desc: "Cleanfolio com modo escuro e destaque em verde ácido.",
       github: "https://github.com/SilesterGold9/cleanfolio",
       live: "https://cleanpfl.netlify.app",
     },
     {
-      title: "Frontend Template",
-      desc: "A starter template for React with Tailwind CSS.",
+      title: "Template Frontend",
+      desc: "Um template inicial para React com Tailwind CSS.",
       github:
         "https://github.com/SilesterGold9/ecommerce-apphttps://github.com/SilesterGold9/react-tailwind-starter",
       live: "https://silester-cleanplate.netlify.app",
     },
     {
-      title: "Website for a Phone Shielding Business",
-      desc: "A sleek and modern website for a phone shielding business.",
+      title: "Site para Empresa de Blindagem de Celulares",
+      desc: "Um site moderno e elegante para uma empresa de blindagem de celulares.",
       github: "https://github.com/SilesterGold9/aw",
       live: "https://aw-protection.netlify.app",
     },
@@ -32,7 +32,7 @@ const Projects = () => {
   return (
     <section className="max-w-6xl mx-auto py-20 px-6">
       <h2 className="text-3xl font-bold mb-12 text-[#9ef01a] tracking-wide">
-        Projects
+        Projetos
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {projects.map((p, i) => (
@@ -50,7 +50,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#9ef01a] transition-colors"
-                title="View on GitHub"
+                title="Ver no GitHub"
               >
                 <Code size={20} />
               </a>
@@ -59,7 +59,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#9ef01a] transition-colors"
-                title="View Live"
+                title="Ver ao Vivo"
               >
                 <ExternalLink size={20} />
               </a>

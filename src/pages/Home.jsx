@@ -7,35 +7,31 @@ const Home = () => {
       <section className="flex flex-col items-center justify-center flex-1 text-center relative z-10">
         {/* Placeholder Logo */}
         <div className="w-24 h-24 mb-6 border-4 border-[#9ef01a] rounded-full animate-pulse" />
-
         {/* Título */}
         <h1 className="text-6xl md:text-8xl font-extrabold leading-[0.9] uppercase text-wheat tracking-wide">
           FULL <br /> STACK <br /> DEVELOPER
         </h1>
-
         {/* Placeholder Avatar / geometria */}
         <div className="w-56 h-64 mt-8 bg-gradient-to-br from-[#161922] to-[#1f2028] border-4 border-[#9ef01a] rounded-2xl flex items-center justify-center">
           <div className="w-32 h-32 border-4 border-[#9ef01a] rounded-lg animate-pulse" />
         </div>
-
         {/* Textos inferiores */}
         <div className="absolute bottom-28 left-4 text-xs uppercase text-left text-gray-400">
           <span>
-            Currently Making
+            Atualmente criando
             <br />
-            Cool Sh*t For Everyone
+            coisas legais para todos
           </span>
         </div>
-
         <div className="absolute bottom-28 right-4 flex flex-col items-end gap-1 text-xs uppercase">
-          <span className="text-gray-400">(2022 - Present)</span>
+          <span className="text-gray-400">(2022 - Presente)</span>
           <Link
             to="/contact"
             id="contact"
             className="flex items-center gap-2 font-bold text-lime-500 cursor-pointer hover:underline"
           >
             <span className="inline-block w-2.5 h-2.5 rounded-full bg-lime-500 animate-pulse"></span>
-            Get in Touch!
+            Entre em contato!
           </Link>
         </div>
       </section>
