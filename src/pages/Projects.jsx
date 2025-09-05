@@ -21,6 +21,12 @@ const Projects = () => {
         "https://github.com/SilesterGold9/ecommerce-apphttps://github.com/SilesterGold9/react-tailwind-starter",
       live: "https://silester-cleanplate.netlify.app",
     },
+    {
+      title: "Website for a Phone Shielding Business",
+      desc: "A sleek and modern website for a phone shielding business.",
+      github: "https://github.com/SilesterGold9/aw",
+      live: "https://aw-protection.netlify.app",
+    },
   ];
 
   return (
